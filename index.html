@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Developer portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header>
+    <nav class="navbar">
+      <a href="#home" class="logo">Dev<span>Portfolio.</span></a>
+
+      <button class="menu-btn" id="menuBtn"
+        aria-label="Toggle navigation">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="intro">HELLO, I'M A DEVELOPER</p>
+
+      <h1>Hi, I'm <span>Shikha Kumari</span></h1>
+
+      <h2>I'm a <span id="role">Frontend Developer</span></h2>
+
+      <p class="description">
+        I build responsive websites and interactive web applications
+        using modern web technologies. I am also exploring backend
+        development and AI integration.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View My Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="profile-circle">SK</div>
+      <!-- <div class="floating-card">💻 Web Developer</div> -->
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <p class="section-label">GET TO KNOW ME</p>
+    <h2 class="section-title">About <span>Me</span></h2>
+
+    <div class="about-card">
+      <h3>My Developer Journey 🚀</h3>
+      <p>
+        I am a BCA student learning frontend and full-stack development.
+        I enjoy solving problems, learning new technologies, and creating
+        useful digital experiences. My current focus is HTML, CSS,
+        JavaScript, React, backend development, and AI-powered applications.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <p class="section-label">WHAT I AM LEARNING</p>
+    <h2 class="section-title">My <span>Skills</span></h2>
+
+    <div class="skills-container">
+      <div class="skill-card">🌐 HTML5</div>
+      <div class="skill-card">🎨 CSS3</div>
+      <div class="skill-card">⚡ JavaScript</div>
+      <div class="skill-card">⚛️ React.js</div>
+      <div class="skill-card">🟢 Node.js</div>
+      <div class="skill-card">🤖 AI Integration</div>
+      <div class="skill-card">🔧 Git & GitHub</div>
+      <div class="skill-card">🗄️ SQL / MySQL</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <p class="section-label">MY RECENT WORK</p>
+    <h2 class="section-title">My <span>Projects</span></h2>
+
+    <div class="projects-container">
+      <article class="project-card">
+        <div class="project-icon">🤖</div>
+        <h3>AI Content Generator</h3>
+        <p>
+          A web application concept for generating answers, summaries,
+          ideas, and definitions with AI.
+        </p>
+        <div class="tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon">📝</div>
+        <h3>Quiz Application</h3>
+        <p>
+          An interactive quiz application with multiple-choice questions,
+          score tracking, and a restart feature.
+        </p>
+        <div class="tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon">🎓</div>
+        <h3>SkillPort Portal</h3>
+        <p>
+          A student portal concept to display profiles, courses,
+          and learning information.
+        </p>
+        <div class="tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <p class="section-label">LET'S CONNECT</p>
+    <h2 class="section-title">Contact <span>Me</span></h2>
+
+    <form id="contactForm" class="contact-form">
+      <input type="text" id="name" placeholder="Your name" required>
+      <input type="email" id="email" placeholder="Your email" required>
+      <textarea id="message" placeholder="Your message"
+        rows="5" required></textarea>
+      <button type="submit" class="btn">Prepare Email</button>
+      <p id="formStatus" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Shikha Kumari | Built with HTML, CSS & JS, React</p>
+    <a href="#home">Back to Top ↑</a>
+  </footer>
+
+
+
+
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
